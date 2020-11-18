@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    /*background-color: green;*/
+
+}
+
+.col-lg-4 {
+    border: 1px solid black;
+    background-color:  rgba(127, 179, 213, 0.5) ;
+    float: left;
+    width: 30%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 1.5% 20px 1.5%;
+
+    }
+
+section p {
+    padding: 35px 10px 10px 10px;
+    
+}
+
+.category {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#women .category {
+    background-color:  #af7ac5 ;
+}
+
+#men .category {
+    background-color:  #1abc9c ;
+}
+
+#children .category {
+    background-color:  #f5b041 ;
+}
+
