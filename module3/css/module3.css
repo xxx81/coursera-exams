@@ -1,0 +1,70 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    font-family: Comic Sans, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-brand {
+    font-weight: 80px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: auto;
+    height: 1000px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+section {
+    background-color:   #e7dfdd;
+    padding: 5px 15px 10px 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.navbar-light {
+    background-color: #f5e4e0 ;
+}
+
+.navbar-brand {
+    color:  #5d5958;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.navbar-collapse .nav-item {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+
+.row {
+    display: block;
+    margin-top: 5px;
+}
+
+@media (max-width: 767px)
+{   
+    #navbarSupportedContent {
+        height: 133px;
+    }
+}
